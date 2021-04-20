@@ -55,8 +55,9 @@ footer p {
 }
 
 iframe {
-    margin: 0 auto;
-    background-color: #777;
+  margin: 0 auto;
+  background-color: #777;
+  display:block;
 }
 
 /*Navigation Bar*/
