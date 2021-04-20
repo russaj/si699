@@ -54,6 +54,50 @@ footer p {
   list-style: none;
 }
 
+/*Navigation Bar*/
+nav{
+  /*background-color: #ddd;*/
+  padding: 20px; 
+  width: 100%;
+    background: linear-gradient(45deg, #F06553, #350706, #350706, #3c3b5f, #381c2a, #381c2a, #2c0635);
+    background-size: 600% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+}
+
+.nav_links{
+ display: flex;
+ flex-direction: column;
+ list-style: none;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  display:inline;
+  padding-right:20px;
+  align-items: center;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #5A8A5F;
+}
+nav li a:hover:not(.active):before {
+  content: "X ";
+}
 /* Main Content sections */
 main{
   background-color: #f2f3d9;
