@@ -2,7 +2,7 @@
 /*Global Styles */
 
 body{
-  background:#5A8A5F;
+  background:#3F6142;
 }
 
 header{
@@ -68,7 +68,7 @@ p {
 }
 
 h1{
-  font-family: 'Meddon', 'Georgia', 'Arial';
+  font-family: 'Nunito', 'Georgia', 'Arial';
   color: #5A8A5F;
   font-size: 32px;
   padding: 15px;
@@ -76,6 +76,7 @@ h1{
 }
 
 h2{
+  font-family: 'Roboto', 'Georgia', 'Arial';
   padding-top: 10px;
   text-align: center;
 }
