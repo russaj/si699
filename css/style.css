@@ -59,15 +59,12 @@ nav{
   /*background-color: #ddd;*/
   padding: 20px; 
   width: 100%;
-    background: linear-gradient(45deg, #F06553, #350706, #350706, #3c3b5f, #381c2a, #381c2a, #2c0635);
     background-size: 600% 100%;
-    animation: gradient 16s linear infinite;
-    animation-direction: alternate;
 }
 
 .nav_links{
  display: flex;
- flex-direction: column;
+ flex-direction: row;
  list-style: none;
 }
 
